@@ -8,6 +8,6 @@ int add (int a, int b){
 }
 
 TEST(AddTest, PassingTest){
-  ASSERT_EQ(6, add(4,2));
+  ASSERT_EQ(64, add(4,2));
 }
 
